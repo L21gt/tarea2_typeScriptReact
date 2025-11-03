@@ -1,0 +1,15 @@
+/* src/components/GenericList.css */
+
+/**
+ * Contenedor principal de la lista genérica (<ul>).
+ * Resetea los estilos de lista por defecto para
+ * controlar el diseño.
+ */
+.generic-list {
+  list-style-type: none; /* */
+  padding: 0;
+  margin: 0;
+}
+
+/* El bloque .generic-list-item que estaba aquí se ha eliminado 
+   porque estaba vacío y causaba un error de linting. */

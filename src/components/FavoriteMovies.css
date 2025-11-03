@@ -1,0 +1,55 @@
+/* src/components/FavoriteMovies.css */
+
+.favorites-container {
+  padding: 16px;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.favorites-container h3 {
+  margin-top: 0;
+}
+
+.favorites-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.favorites-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.favorites-list li:last-child {
+  border-bottom: none;
+}
+
+.favorites-list button {
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.favorites-list button:hover {
+  background-color: #c82333;
+}
+
+.favorites-empty {
+  color: #777;
+  font-style: italic;
+}
+
+.favorites-average {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 16px;
+}

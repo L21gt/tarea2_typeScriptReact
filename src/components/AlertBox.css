@@ -1,0 +1,19 @@
+/* src/components/AlertBox.css */
+
+.alert-box {
+  padding: 12px 16px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  font-weight: bold;
+}
+
+/**
+ * Modificador para el tipo 'error'.
+ * 
+ */
+.alert-box-error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}

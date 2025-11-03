@@ -1,0 +1,34 @@
+/* src/components/Section.css */
+
+/**
+ * Contenedor principal para una sección de contenido.
+ * Aplica un borde y márgenes para agrupar visualmente
+ * el título y su contenido.
+ */
+.section-container {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin: 16px 8px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/**
+ * Título de la sección.
+ * 
+ */
+.section-title {
+  font-size: 1.5rem;
+  padding: 12px 16px;
+  margin: 0;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #fcfcfc;
+}
+
+/**
+ * Contenedor para el contenido (children) de la sección.
+ * 
+ */
+.section-content {
+  padding: 16px;
+}
